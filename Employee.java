@@ -1,4 +1,6 @@
 
+
+
 public class Employee {
  String name;
  int id;
@@ -26,7 +28,7 @@ public class Employee {
  }
 
  public static void main(String[] args) {
-    Employee emp=new Employee("Abhi", 147,50000);
+    Employee emp=new Employee("Abhi", 147,50000,"Hubli");
     emp.display();
  }
  
